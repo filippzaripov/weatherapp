@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+}
+
+header{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: Arial, Helvetical, sans-serif;
+}
+.city *{
+    margin: 0;
+    padding: 0;
+}
+.city ul,
+.city ol {
+    list-style: none;
+}
+.city > ul {
+    display: flex;
+    justify-content: flex-start;
+}
+.city > ul li a {
+    display: block;
+    background: #ececed;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.city > ul li {
+    position: relative;
+    border-right: 1px;
+}
+.city > ul li:first-child{
+    border-left: 1px solid #b2b3b5;
+}
+
+.city > ul li:last-child{
+    border-right: 1px solid #babbbb;
+}
+.city li a:hover {
+    background: #454547;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+.KazanWeather {
+    margin-top: 20px;
+}
+
+/*sub menu*/
+
+.city li ul{
+    position: relative;
+    min-width: 150px;
+    display: none;
+}
+.city li > ul li {
+    border: 1px solid #c7c8ca;
+}
+.city li > ul li a{
+    background: #e4e4e5;
+}
+.city li:hover > ul{
+    display: block;
+}
