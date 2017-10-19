@@ -1,0 +1,16 @@
+This app uses API of "Open Weather Map" to gather information about current weather in 3 cities in Russia:
+1. Kazan
+2. Moscow
+3. Saint-Petersburg
+
+Prerequisites:
+JDK 1.8 or higher
+TomCat 7
+
+The best way to run this app is to import it to Intellij Idea and build it using custom "Mvn deploy" build.
+Then typo into your browser localhost:<port configured for tomcat server>/WeatherApp
+
+For example:
+localhost:8080/WeatherApp
+
+Any questions regarding this project you can address to philippsbucket@gmail.com
