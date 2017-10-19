@@ -4,7 +4,6 @@ import net.aksingh.owmjapis.DailyForecast;
 import net.aksingh.owmjapis.OpenWeatherMap;
 import org.apache.log4j.Logger;
 import org.json.JSONException;
-
 import java.io.IOException;
 
 /**
@@ -38,7 +37,7 @@ public class Weather {
                 ? OpenWeatherMap.Units.METRIC
                 : OpenWeatherMap.Units.IMPERIAL;
         OpenWeatherMap owm = new OpenWeatherMap(units, owmApiKey);
-        weather += "Current temperature for " + city+" is ";
+        weather += "Current temperature in " + city+" is ";
 
         try {
             DailyForecast forecast = owm.dailyForecastByCityName(weatherCity, forecastDays);

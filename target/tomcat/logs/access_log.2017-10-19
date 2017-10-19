@@ -39,3 +39,16 @@
 0:0:0:0:0:0:0:1 - - [19/Oct/2017:01:43:49 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 800 http-bio-8080-exec-5 104
 0:0:0:0:0:0:0:1 - - [19/Oct/2017:01:43:52 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 799 http-bio-8080-exec-6 87
 0:0:0:0:0:0:0:1 - - [19/Oct/2017:01:43:55 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 810 http-bio-8080-exec-7 108
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:09:56:20 +0300] "GET /WeatherApp HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:09:56:21 +0300] "GET /WeatherApp/ HTTP/1.1" 200 761 http-bio-8080-exec-2 1359
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:09:56:24 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 799 http-bio-8080-exec-4 344
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:09:56:27 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 800 http-bio-8080-exec-5 125
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:05:25 +0300] "GET /WeatherApp/ HTTP/1.1" 200 761 http-bio-8080-exec-1 198
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:05:27 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 799 http-bio-8080-exec-2 281
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:05:29 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 800 http-bio-8080-exec-3 67
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:14:53 +0300] "GET /WeatherApp/russianWeather HTTP/1.1" 200 798 http-bio-8080-exec-1 484
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:14:56 +0300] "GET /WeatherApp/russianWeather HTTP/1.1" 200 798 http-bio-8080-exec-2 78
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:14:59 +0300] "GET /WeatherApp/ HTTP/1.1" 200 761 http-bio-8080-exec-3 16
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:15:02 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 799 http-bio-8080-exec-4 790
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:15:04 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 800 http-bio-8080-exec-5 125
+0:0:0:0:0:0:0:1 - - [19/Oct/2017:10:15:07 +0300] "POST /WeatherApp/russianWeather HTTP/1.1" 200 810 http-bio-8080-exec-6 125
